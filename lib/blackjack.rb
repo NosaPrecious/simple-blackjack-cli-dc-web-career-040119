@@ -73,7 +73,7 @@ def runner
     if player_card_value < 21
       current_player_card_value = player_card_value
     else
-      end_game(current_player_card_value)
+      end_game(player_card_value)
     end
   end
     else
