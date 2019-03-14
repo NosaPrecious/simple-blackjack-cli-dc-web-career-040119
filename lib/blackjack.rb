@@ -74,6 +74,7 @@ def runner
       current_player_card_value = player_card_value
     else
       end_game(player_card_value)
+      break
     end
   end
     else
